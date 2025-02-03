@@ -1,0 +1,18 @@
+name: labscript-prebuild
+channels:
+  - labscript-suite
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - pip
+  - pyqt
+  - labscript-suite
+  - desktop-app
+
+  - pip:
+    - -r requirements.txt

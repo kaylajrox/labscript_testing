@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Labscript2.iml" filepath="$PROJECT_DIR$/.idea/Labscript2.iml" />
+      <module fileurl="file://$USER_HOME$/labscript-suite/app_saved_configs/.idea/app_saved_configs.iml" filepath="$USER_HOME$/labscript-suite/app_saved_configs/.idea/app_saved_configs.iml" />
+      <module fileurl="file://$USER_HOME$/labscript-suite/blacs/.idea/blacs.iml" filepath="$USER_HOME$/labscript-suite/blacs/.idea/blacs.iml" />
+    </modules>
+  </component>
+</project>
