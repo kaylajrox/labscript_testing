@@ -16,7 +16,7 @@
       <sourceFolder url="file://$USER_HOME$/labscript-suite/userlib" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/labscript-suite/userlib/pythonlib" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="labscript-prebuild" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Labscript2" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app_saved_configs" />
     <orderEntry type="module" module-name="blacs" />

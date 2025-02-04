@@ -1,11 +1,13 @@
 #!/bin/bash
 
+
 # Define paths and environment variables
 BASE_DIR="labscript-suite"
 ENV_YAML="environment.yml"
 CUSTOM_ENV_DIR="$BASE_DIR/envs"
 POST_SETUP_SCRIPT="post_setup.py"
 ENV_NAME=""
+
 
 # Function to initialize Conda in the script
 initialize_conda() {
@@ -19,6 +21,7 @@ initialize_conda() {
     fi
 }
 
+
 # Function to extract environment name from YAML
 get_env_name() {
     if [ -f "$ENV_YAML" ]; then
@@ -29,11 +32,13 @@ get_env_name() {
     fi
 }
 
+
 # Function to set up the environment directory
 setup_custom_env_dir() {
     mkdir -p "$CUSTOM_ENV_DIR"
     echo "Created directory: $CUSTOM_ENV_DIR"
 }
+
 
 # Function to create or update the Conda environment
 create_or_update_env() {
@@ -53,6 +58,7 @@ create_or_update_env() {
     conda activate "$CUSTOM_ENV_DIR/$ENV_NAME"
 }
 
+
 # Function to run post-setup script
 run_post_setup_script() {
     if [ -f "$POST_SETUP_SCRIPT" ]; then
@@ -63,6 +69,7 @@ run_post_setup_script() {
         echo "Post-setup script '${POST_SETUP_SCRIPT}' not found. Skipping."
     fi
 }
+
 
 # Main script logic
 initialize_conda
